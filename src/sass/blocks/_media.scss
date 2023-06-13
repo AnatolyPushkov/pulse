@@ -1,0 +1,273 @@
+/* ---------------- max-width 320px---------------- */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            margin-top: 50px;
+            font-size: 20px;
+            span {
+                font-size: 28px;
+            }
+        }
+        &__contacts {
+            margin-top: 10px;
+        }
+        .button {
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 35px;
+            padding-bottom: 10px;
+        }
+        &__title {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subtitle {
+            font-size: 15px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 20px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 10px;
+        }
+        .button_main {
+            margin-top: 10px;
+            width: 290px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        padding-top: 50px;
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .feed-form {
+            width: 290px;
+        }
+    }
+}
+
+
+
+
+/* ---------------- max-width 375px---------------- */
+@media (max-width: 375px) {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            margin-top: 50px;
+            font-size: 20px;
+            span {
+                font-size: 28px;
+            }
+        }
+        &__contacts {
+            margin-top: 10px;
+        }
+        .button {
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 35px;
+            padding-bottom: 10px;
+        }
+        &__title {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subtitle {
+            font-size: 15px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 20px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 10px;
+        }
+        .button_main {
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 290px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        padding-top: 50px;
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 20px;
+            }
+    }
+}
+
+
+/* ---------------- max-width 425px---------------- */
+@media (min-width: 376px) and (max-width: 425px) {
+    .container {
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            margin-top: 50px;
+            font-size: 20px;
+            span {
+                font-size: 28px;
+            }
+        }
+        &__contacts {
+            margin-top: 10px;
+        }
+        .button {
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 35px;
+            padding-bottom: 10px;
+        }
+        &__title {
+            font-size: 45px;
+            text-align: center;
+        }
+        &__subtitle {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 20px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 10px;
+        }
+        .button_main {
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 290px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        padding-top: 50px;
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 20px;
+            }
+    }
+}
+
+/* ---------------- max-width 768px---------------- */
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .header {
+        &__title {
+            font-size: 20px;
+            span {
+                font-size: 30px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 150px;
+            align-items: center;
+        }
+        &__title {
+            font-size: 55px;
+            text-align: center;
+        }
+        &__subtitle {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+    .consultation {
+        padding-top: 70px;
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 30px;
+            }
+    }
+}

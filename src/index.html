@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RunSmart</title>
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -69,7 +70,7 @@
                     <div class="advantages__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="advantages__icon">
+                    <img src="icons/heart.png" alt="advantages__icon" class="advantages__icon_animated_2">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
@@ -486,7 +487,7 @@
                 отзывы клиентов
             </div>
             <div class="reviews__wrapper">
-                <div class="reviews__items">
+                <div class="reviews__items animate__animated animate__fadeInUp wow data-wow-duration="1s" data-wow-delay="1s"">
                     <div class="reviews__items-img">
                         <img src="images/photo_1.png" alt="photo" class="reviews__items-img">
                     </div>
@@ -499,7 +500,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="reviews__items">
+                <div class="reviews__items animate__animated animate__fadeInUp wow data-wow-duration="1s" data-wow-delay="1s"">
                     <div class="reviews__items-img">
                         <img src="images/photo_2.png" alt="photo">
                     </div>
@@ -511,7 +512,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="reviews__items">
+                <div class="reviews__items animate__animated animate__fadeInUp wow data-wow-duration="1s" data-wow-delay="1s"">
                     <div class="reviews__items-img">
                         <img src="images/photo_3.png" alt="photo">
                     </div>
@@ -528,7 +529,7 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="footer__map">        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4304816259178!2d37.64442107706431!3d55.76839497308999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1688067745982!5m2!1sru!2sru" width="100%" height="630" style="" allowfullscreen="" loading="" referrerpolicy=""></iframe></div>
+        <div class="footer__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4304816259178!2d37.64442107706431!3d55.76839497308999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1688067745982!5m2!1sru!2sru" width="100%" height="630" style="" allowfullscreen="" loading="" referrerpolicy=""></iframe></div>
 
         <div class="footer__info">
             <addres class="footer__addres">Москва, Мясницкий проезд, д.3с1</addres>
@@ -575,14 +576,20 @@
             <div class="overlay__subtitle">Наш менеджер свяжется с вами
                  в ближайшее время!</div>
         </div>
-    </вш>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    </div>
+
+   <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+   </a>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
 <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script> -->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 

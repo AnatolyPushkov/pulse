@@ -35,4 +35,11 @@
 
         }
     }
+    &__icon_animated_2 {
+        animation: heartbeat 1s infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }
+
